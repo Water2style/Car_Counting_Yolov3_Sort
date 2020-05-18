@@ -1,0 +1,8 @@
+opencv-contrib-python 
+tensorflow-probability 
+numpy 
+imutils 
+numba
+threadpoolctl
+sklearn 
+filterpy 
