@@ -208,6 +208,8 @@ while True:
 
 	# saves image file
 	cv2.imwrite("output/frame-{}.png".format(frameIndex), frame)
+	cv2.imshow("Car_Counting", frame)
+	cv2.waitKey(1)
 
 	# check if the video writer is None
 	if writer is None:
